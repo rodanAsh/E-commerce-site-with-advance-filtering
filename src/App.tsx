@@ -1,8 +1,12 @@
 import React from 'react'
+import Sidebar from './components/Sidebar'
+import { Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className='text-3xl underline font-bold'>App</div>
+    <main className='h-screen flex'>
+      <Sidebar/> 
+    </main>
   )
 }
 
